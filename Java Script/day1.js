@@ -32,3 +32,7 @@
 // console.log(typeof stock);
 
 // Collections
+// Arrays Objects
+let marks = [12, 33, 44, 5, 55, 6];
+
+console.log(marks);
