@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.text-white-custom {
+  color: #ffffff; /* Default white color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.text-white-custom:hover {
+  color: #cccccc; /* Slightly darker white on hover */
+}
+.nav-link:hover {
+  color: #020c3a;
+}
+.header {
+  background-color: rgb(2, 35, 53);
+}
+#basic-addon2 {
+  background-color: rgb(171, 17, 37);
+  font-weight: bold;
+}
+/* Force hamburger menu on all screen sizes */
+@media (min-width: 992px) {
+  .navbar-collapse {
+    display: none !important;
+  }
+  .navbar-toggler {
+    display: block !important;
+  }
+}
+.dropdown-toggle::after {
+  display: none;
+}
+/* @media (min-width: 992px) {
+  .navbar-collapse {
+    display: none !important;
+  }
+  .navbar-collapse.show {
+    display: block !important;
+  }
+  .navbar-toggler {
+    display: block !important;
+  }
+} */
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+/* Show nested dropdowns on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu .dropdown-menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  display: none;
+}
+
+.dropdown-menu .dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #e9ecef;
+}
+
+/* Adjust padding for nested dropdowns */
+.dropdown-menu .dropdown-item {
+  padding: 0.25rem 1.5rem;
+}
+@media (min-width: 992px) {
+  #imageSlider {
+    overflow: visible; /* Ensures images are not hidden */
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none; /* Hide controls on large screens */
+  }
+}
+
+.card {
+  width: 18rem; /* Set a fixed width for each card */
+  margin: 1rem; /* Add some margin to space out the cards */
+}
+
+.card-img-top {
+  width: 100px; /* Adjust this to make the image smaller */
+  height: auto;
+  margin-top: 1rem; /* Add top margin to center it vertically */
+}
+
+.card-body {
+  text-align: center; /* Center the text and buttons */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #020c3a;
+}
