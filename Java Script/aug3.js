@@ -6,8 +6,8 @@ console.log("Hello This is Sparta!");
 
 // <------Primitive Data Types----------->
 // Numbers
-// let num = 24;
-// console.log(typeof num);
+let num = 24;
+console.log(typeof num);
 
 // // String
 // let name = "AQ";
