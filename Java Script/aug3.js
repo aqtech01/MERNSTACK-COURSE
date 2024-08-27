@@ -1,13 +1,13 @@
 "use strict";
 
-console.log("Hello This is Sparta!");
+console.log("Hello, This is Sparta!");
 
 // Data Types----->
 
 // <------Primitive Data Types----------->
 // Numbers
-let num = 24;
-console.log(typeof num);
+// let num = 24;
+// console.log(typeof num);
 
 // // String
 // let name = "AQ";
@@ -31,8 +31,24 @@ console.log(typeof num);
 // let Sm = Symbol(12312312);
 // console.log(typeof Sm);
 
-// Operators ----->
-// Truthy False ---->
+// Truthy False
+
+// let isActive = false;
+// if (isActive) {
+//   console.log("Your Account is active");
+// } else {
+//   console.log("Your Account is Deactivate");
+// }
+
+// let stock;
+// console.log(Number(stock));
+// if (stock) {
+//   console.log("True");
+// } else {
+//   console.log("False");
+// }
+// x = Number(1);
+// console.log(x);
 
 // let name = " ";
 // if (name) {
@@ -66,6 +82,14 @@ console.log(typeof num);
 // console.log(typeof stock);
 
 // Collections
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+arr[15] = 10;
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] != undefined) {
+    console.log(arr[i]);
+  }
+}
+// console.log(arr);
 // Arrays Objects
 // let marks = [12, 33, 44, 5, 55, 6];
 
